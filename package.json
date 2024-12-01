@@ -1,14 +1,14 @@
 {
   "name": "fizz-buzz",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "fizz-buzz",
   "main": "index.js",
   "scripts": {
     "fmt": "pnpm biome format --write ./",
     "test": "vitest run",
     "coverage": "vitest run --coverage"
   },
-  "keywords": [],
+  "keywords": ["fizz-buzz"],
   "author": "",
   "license": "ISC",
   "devDependencies": {
