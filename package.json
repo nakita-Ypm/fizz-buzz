@@ -12,7 +12,6 @@
     "coverage": "vitest run --coverage"
   },
   "keywords": ["fizz-buzz"],
-  "author": "",
   "license": "ISC",
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
