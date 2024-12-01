@@ -1,9 +1,12 @@
 {
-  "name": "fizz-buzz",
+  "name": "fizz-buzz-function",
   "version": "0.0.1",
   "description": "fizz-buzz",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist", "README.md"],
   "scripts": {
+    "build": "tsc",
     "fmt": "pnpm biome format --write ./",
     "test": "vitest run",
     "coverage": "vitest run --coverage"
