@@ -1,0 +1,19 @@
+{
+  "name": "fizz-buzz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fmt": "pnpm biome format --write ./",
+    "test": "vitest run",
+    "coverage": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@vitest/coverage-v8": "^2.1.5",
+    "vitest": "^2.1.5"
+  }
+}
