@@ -1,5 +1,5 @@
 {
-  "name": "fizz-buzz",
+  "name": "fizz-buzz-function",
   "version": "0.0.1",
   "description": "fizz-buzz",
   "main": "dist/index.js",
