@@ -1,0 +1,7 @@
+rules:
+  - divisor: 15
+    output: FizzBuzz
+  - divisor: 3
+    output: Fizz
+  - divisor: 5
+    output: Buzz
