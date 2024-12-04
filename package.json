@@ -1,6 +1,6 @@
 {
   "name": "fizz-buzz-function",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "fizz-buzz",
   "repository": "https://github.com/nakita-Ypm/fizz-buzz",
   "main": "dist/index.js",
