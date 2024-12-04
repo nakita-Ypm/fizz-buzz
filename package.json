@@ -1,21 +1,30 @@
 {
   "name": "fizz-buzz-function",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "fizz-buzz",
+  "repository": "https://github.com/nakita-Ypm/fizz-buzz",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": ["dist", "README.md"],
+  "bin": {
+    "fizz-buzz": "dist/src/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "fmt": "pnpm biome format --write ./",
     "test": "vitest run",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "gen": "pnpm fizz-buzz example/fizz-buzz.json -o generated/fizz-buzz.ts",
+    "dev": "tsx src/generator.ts example/fizz-buzz.json -o generated/fizz-buzz.ts"
   },
   "keywords": ["fizz-buzz"],
   "license": "ISC",
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
+    "@types/node": "^22.10.1",
     "@vitest/coverage-v8": "^2.1.5",
+    "prettier": "^3.4.2",
+    "tsx": "^4.19.2",
     "vitest": "^2.1.5"
   }
 }
